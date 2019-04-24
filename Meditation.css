@@ -52,6 +52,8 @@
     top: 0%;
     left: 0%;
     width: 100%;
+    filter:  blur(2px) grayscale(10%);
+    /* background-blend-mode: darken; */
     z-index: -10;
   }
 
@@ -88,6 +90,8 @@
     background:lightpink;
 }
 
+
+/*  If you want to constraint something inside of element use height 100% */
 .sound-picker button img {
     height: 100%;
 }
